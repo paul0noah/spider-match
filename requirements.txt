@@ -1,0 +1,14 @@
+trimesh
+networkx
+robust-laplacian
+potpourri3d
+polyscope
+open3d
+h5py
+libigl
+scikit-learn
+numpy
+pymeshfix
+vedo
+opencv-python
+gurobipy
