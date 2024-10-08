@@ -66,15 +66,6 @@ sudo apt-get install libboost-all-dev
 
 List of potential libs not found: `libxrandr`, `libxinerama`, `libxcursor`, `libxi`, `libboost`
 
-### CMake Error
-Error messages like
-```
-CMake Error at build/temp.linux-x86_64-cpython-38/_deps/pybind11-src/tools/pybind11Common.cmake:54 (add_library):
-add_library cannot create imported target "pybind11::pybind11" because
-  another target with the same name already exists.
-```
-Please comment out Line 65 to 75 (pybind11-related) in `external/BDD/CMakeLists.txt`
-
 ## 🙏 Acknowledgement
 The implementation of DiffusionNet is based on [the official implementation](https://github.com/nmwsharp/diffusion-net).
 The framework implementation is adapted from [Unsupervised Deep Multi Shape Matching](https://github.com/dongliangcao/Unsupervised-Deep-Multi-Shape-Matching).
