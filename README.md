@@ -49,6 +49,7 @@ See `spidermatch_example.py` for example usage.
 There are some issues with the `.off` file format. Use e.g. meshlab to convert them to `.obj` for example
 
 ### Some libs for sm-3dcouple not found
+
 - opengl not found:
 `sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev`
 
@@ -57,7 +58,13 @@ There are some issues with the `.off` file format. Use e.g. meshlab to convert t
 sudo apt-get install libxrandr-dev
 sudo apt-get install libxinerama-dev
 ```
-List of potential libs not found: `libxrandr`, `libxinerama`, `libxcursor`, `libxi`
+
+- if `libboost` not found install all related packages via
+```bash
+sudo apt-get install libboost-all-dev
+```
+
+List of potential libs not found: `libxrandr`, `libxinerama`, `libxcursor`, `libxi`, `libboost`
 
 ## 🙏 Acknowledgement
 The implementation of DiffusionNet is based on [the official implementation](https://github.com/nmwsharp/diffusion-net).
