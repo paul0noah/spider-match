@@ -32,7 +32,7 @@ for i in range(0, len(vx)):
 ## ++++++++++++++++++++++++++++++++++++++++
 ## ++++++++ Solve with SpiderMatch ++++++++
 ## ++++++++++++++++++++++++++++++++++++++++
-smm = ShapeMatchModelDijkstra(vy, ey, vx, ex, edge_costs.T, True, False, False)
+smm = ShapeMatchModelDijkstra(vy, ey, vx, ex, edge_costs.T, True, False, True)
 E = smm.getCostVector()
 RHS = smm.getRHS()
 I, J, V = smm.getAVectors()
