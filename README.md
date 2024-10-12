@@ -14,7 +14,7 @@ Note: builds are only tested on unix machines.
 conda create -n spidermatch python=3.8
 conda activate spidermatch
 conda install pytorch cudatoolkit -c pytorch # install pytorch
-git clone git@github.com:paul0noah/spider-matchs.git
+git clone git@github.com:paul0noah/spider-match.git
 cd spider-match
 pip install -r requirements.txt # install other necessary libraries via pip
 ```
