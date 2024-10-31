@@ -105,7 +105,7 @@ def get_opts_for_dt4d_intra():
 def get_opts_for_smal():
     network_path = "checkpoints/smal.pth"
     feature_opts = {
-        "feature_extractor": get_feature_extractor(network_path, input_type='wks'),
+        "feature_extractor": get_feature_extractor(network_path, input_type='xyz'),
         "num_refine": 15,
         "partial": False,
         "non_isometric": True,
