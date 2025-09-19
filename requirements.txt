@@ -5,7 +5,7 @@ potpourri3d
 polyscope
 open3d
 h5py
-libigl
+libigl==2.4.1
 scikit-learn
 numpy
 pymeshfix
