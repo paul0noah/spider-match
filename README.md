@@ -3,7 +3,7 @@ Official repository for the CVPR 2024 best paper award candidate paper: SpiderMa
 For more information, please visit our [our project page](https://paulroetzer.github.io/publications/2024-06-19-spidermatch.html).
 
 
-⚠️ If your goal is to perform surface-to-surface shape matching, we highly recommend you to check out our follow-up work [GeCo 🦎](https://github.com/paul0noah/geco).
+⚠️ If your goal is to perform surface-to-surface shape matching, we highly recommend to check out our follow-up work [GeCo 🦎](https://github.com/paul0noah/geco).
 
 ## ⚙️ Installation
 ### Prerequesites
